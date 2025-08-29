@@ -9,6 +9,14 @@ An component library is a core element of any application. They change according
 
 If you've learned something you want to share or have found some lacking functionality, please add a PR so you and others have the best possible components to start with.
 
+## Requirements
+The source code uses certain syntax that is not supported in older versions. The versions of specific packages are:
+
+- Tailwind >= 4.0 (syntax of css classes)
+- Phoenix LiveView >= 1.1 (because of colocated hooks and JS)
+
+Make sure your project uses these versions before adopting the provided components.
+
 ## Getting started
 
 ### 1. Copy everything into your project

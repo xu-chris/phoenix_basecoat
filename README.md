@@ -40,4 +40,4 @@ In your `my_app_web.ex`, you have to replace `CoreComponents` with `Components`:
 ```
 
 ### 2. Use the components
-The most components were kept very close to the `CoreComponents` to keep the migration small.
+Most components were kept very close to the `CoreComponents` to keep the migration small.
